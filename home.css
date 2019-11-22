@@ -1,0 +1,217 @@
+/*		home page 	*/
+
+.mosaic {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+}
+
+.bg-img-coucou {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_coucou.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.bg-img-coucou:hover {
+	transition-duration: 0.8s;
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_coucou_hover.jpg');
+}
+
+
+.bg-styx {
+	background-image: url('./images/project_cover/project_cover_styx.jpg');
+}
+
+.bg-coucou {
+	background-image: url('./images/project_cover/project_cover_coucou.jpg');
+}
+
+.bg-luvli {
+	
+}
+
+
+/* Card general behavior */
+
+.parent {
+	width: 100%;
+	height: 330px;
+	position: relative;
+	overflow: hidden;
+}
+
+.bg-card {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+}
+
+.parent a { display: none; }
+
+.bg-card::before {
+	display: none;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 193, 7, 0.41);
+}
+
+.parent:hover .bg-card:before {
+	display: block;
+}
+
+.parent:hover .bg-card {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.parent:hover .bg-card {
+	background-size: 100%;
+}
+
+.parent:hover a {
+	display: block;
+	z-index: 2;
+	color: white;
+	font-size: 2em;
+}
+
+.bg-img-fetiche {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_fetiche.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.bg-img-fetiche:hover {
+	transition-duration: 0.8s;
+
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_fetiche_hover.jpg');
+    }
+
+
+.bg-img-unfiltered {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_unfiltered.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.bg-img-unfiltered:hover {
+	transition-duration: 0.8s;
+
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_unfiltered_hover.jpg');
+    }
+
+
+.bg-img-luvli {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_luvli.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   height:300px;
+}
+.bg-img-luvli:hover {
+	transition-duration: 0.8s;
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_luvli_hover.jpg');
+}
+
+
+.bg-img-une-semaine {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_une-semaine.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  height:300px;
+}
+.bg-img-une-semaine:hover {
+	transition-duration: 0.8s;
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_une-semaine_hover.jpg');
+}
+
+
+.bg-img-idm {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_IDM.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.bg-img-idm:hover {
+	transition-duration: 0.8s;
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_IDM_hover.jpg');
+}
+
+
+.bg-img-ricard {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./images/project_cover/project_cover_ricard.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.bg-img-ricard:hover {
+	transition-duration: 0.8s;
+	background-size: cover;
+    background-image: url('./images/project_cover/project_cover_ricard_hover.jpg');
+}
+
